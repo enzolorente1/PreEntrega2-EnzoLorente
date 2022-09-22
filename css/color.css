@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+main{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(218, 218, 177);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: gold;
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: gold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+h2{
+    color: gold;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+        color: silver;
+        font-size: 3.5em;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    button{
+        font-size: 1.25em;
+        font-weight: normal;
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: 2px solid rgba(0,0,0,0.3);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        color: rgb(189, 161, 35);
+        background-color: rgb(56, 56, 56);
+    }
+
+    button:hover{
+        background-color:rgb(138, 138, 138) ;
+    }
+
+    .container{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    #boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #frase{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(../img/adan-creation-g7d2cd8fd1_1920.jpg);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        font-family: 'Times New Roman', Times, serif;
+    }
